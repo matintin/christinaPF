@@ -20,9 +20,9 @@ $(document).ready(function() {
     });
   } else {
     // handle the mouseenter functionality
-    $(".effects .img").mouseenter(function() {
-      $(this).addClass("hover");
-    })
+    // $(".effects .img").mouseenter(function() {
+    //   $(this).addClass("hover");
+    // })
     // handle the mouseleave functionality
     .mouseleave(function() {
       $(this).removeClass("hover");
